@@ -265,7 +265,7 @@ nav.scrolled {
   width: clamp(280px, 35vw, 420px);
   aspect-ratio: 3/4;
 }
-.photo-frame::before {
+.photo-frame::after {
   content: '';
   position: absolute;
   top: -12px; left: -12px; right: 12px; bottom: 12px;
